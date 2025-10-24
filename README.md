@@ -19,12 +19,15 @@ This app takes patient data (such as age, cholesterol level, and blood pressure)
 . Easy to use and deploy locally or on the web
 
 📁 Project Structure
-📂 Heart_Disease_Prediction
-│
-├── heart_disease_app.py     # Main Streamlit application
+📂 Heart_Disease_Prediction 
+├── heart_disease_app.py      # Main Streamlit application
+
 ├── heart.csv                 # Dataset (from Kaggle)
+
 ├── heart_model.pkl           # Saved machine learning model
+
 ├── requirements.txt          # Required libraries
+
 └── README.md                 # Project documentation
 
 🧩 Tools and Libraries Used
@@ -63,4 +66,11 @@ Saved Model File: heart_model.pkl
 Displays confidence percentage of the prediction.
 
 
+📦 Requirements (requirements.txt)
+
+streamlit
+pandas
+numpy
+scikit-learn
+joblib
 
