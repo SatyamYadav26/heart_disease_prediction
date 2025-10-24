@@ -1,12 +1,15 @@
-💓 Heart Disease Prediction App
+💓 **Heart Disease Prediction App**
+
 A machine learning web application built with Streamlit that predicts the risk of heart disease based on a person’s health data.
 This project uses the Logistic Regression algorithm and the Heart Disease UCI dataset from Kaggle.
 
-🧠 Overview
+
+🧠 **Overview**
 Heart disease is one of the leading causes of death worldwide. Early detection through predictive modeling can help save lives.
 This app takes patient data (such as age, cholesterol level, and blood pressure) and predicts the likelihood of having heart disease.
 
-⚙️ Features
+
+⚙️ **Features**
 
 . Interactive Streamlit web interface
 
@@ -18,7 +21,8 @@ This app takes patient data (such as age, cholesterol level, and blood pressure)
 
 . Easy to use and deploy locally or on the web
 
-📁 Project Structure
+
+📁 **Project Structure**
 
 📂 Heart_Disease_Prediction 
 |
@@ -32,7 +36,8 @@ This app takes patient data (such as age, cholesterol level, and blood pressure)
 
 └── README.md                 # Project documentation
 
-🧩 Tools and Libraries Used
+
+🧩 **Tools and Libraries Used**
 
 Python
 
@@ -48,7 +53,8 @@ Joblib – Saving and loading trained models
 
 Matplotlib / Seaborn (optional) – For visualization
 
-🧮 Model Details
+
+🧮 **Model Details**
 
 Algorithm: Logistic Regression
 
@@ -59,7 +65,7 @@ Evaluation Metric: Accuracy Score
 Saved Model File: heart_model.pkl
 
 
-🏁 Output
+🏁 **Output**
 
 “✅ Low risk of heart disease” – if model predicts 0
 
@@ -68,7 +74,7 @@ Saved Model File: heart_model.pkl
 Displays confidence percentage of the prediction.
 
 
-📦 Requirements (requirements.txt)
+📦 **Requirements (requirements.txt)**
 
 streamlit
 
